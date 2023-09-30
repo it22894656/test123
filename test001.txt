@@ -1,8 +1,16 @@
+import java.io.*;
+
 public class test001{
 	
 	public static void main(String[] args){
-
-	System.out.println("Hello world!!!!!!!!!!!");
+	
+	InputStreamReader isr = new InputStreamReader(System.in);
+	BufferedReader reader = new BufferedReader(isr);
+		
+		String st = reader.readLine();
+	
+	System.out.println(st);
+	
 
 	}
 
